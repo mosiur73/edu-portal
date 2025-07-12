@@ -158,11 +158,11 @@ export default function RegisterForm() {
 
           {/* <Button variant="outline" className="w-full bg-transparent" onClick={() => handleSocialSignIn("facebook")}>
             Continue with Facebook
-          </Button>
+          </Button> */}
 
           <Button variant="outline" className="w-full bg-transparent" onClick={() => handleSocialSignIn("twitter")}>
             Continue with Twitter
-          </Button> */}
+          </Button> 
         </div>
       </CardContent>
 
