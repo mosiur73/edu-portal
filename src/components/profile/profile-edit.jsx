@@ -62,7 +62,7 @@ export default function ProfileEdit({ user, onSave, onCancel }) {
   }
 
   return (
-    <Card className="w-full max-w-2xl mx-auto">
+    <Card className="w-full max-w-2xl mx-auto py-20">
       <CardHeader>
         <CardTitle>Edit Profile</CardTitle>
         <CardDescription>Update your personal information</CardDescription>

@@ -7,7 +7,7 @@ import { User, Mail, GraduationCap, MapPin, Edit } from "lucide-react"
 
 export default function ProfileView({ user, onEdit }) {
   return (
-    <Card className="w-full max-w-2xl mx-auto">
+    <Card className="w-full max-w-2xl mx-auto py-20">
       <CardHeader className="text-center">
         <div className="flex justify-center mb-4">
           <Avatar className="h-24 w-24">
