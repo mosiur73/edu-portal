@@ -1,0 +1,80 @@
+[
+  {
+    "id": "1",
+    "name": "Harvard University",
+    "image": "https://i.ibb.co/chXpL1k5/download-2.jpg",
+    "admissionDates": "2025-01-15 to 2025-03-30",
+    "events": "Tech Conference, Alumni Meet",
+    "researchHistory": "AI, Medicine, Space Research",
+    "sports": "Football, Basketball",
+    "admissionProcess": "Online application, essay, recommendation letters.",
+    "eventDetails": "Tech Conference on AI, Alumni networking in March.",
+    "researchWorks": "AI-driven diagnostics, Cancer research breakthroughs.",
+    "sportsCategories": "Varsity football, basketball, swimming."
+  },
+  {
+    "id": "2",
+    "name": "MIT",
+    "image": "https://i.ibb.co/0jvQzh0Y/download-1.jpg",
+    "admissionDates": "2025-02-10 to 2025-04-20",
+    "events": "Robotics Expo, Hackathon",
+    "researchHistory": "Robotics, Quantum Physics",
+    "sports": "Soccer, Rowing",
+    "admissionProcess": "Entrance exam, personal statement, interviews.",
+    "eventDetails": "Robotics Expo in February, annual Hackathon in March.",
+    "researchWorks": "Quantum computing chips, autonomous robotics.",
+    "sportsCategories": "Soccer, rowing, fencing."
+  },
+  {
+    "id": "3",
+    "name": "Stanford University",
+    "image": "https://i.ibb.co/RqztqRW/download.jpg",
+    "admissionDates": "2025-03-01 to 2025-05-15",
+    "events": "Startup Pitch, Science Fair",
+    "researchHistory": "Medicine, Renewable Energy",
+    "sports": "Tennis, Swimming",
+    "admissionProcess": "Common App submission, test scores, essays.",
+    "eventDetails": "Startup pitch competition in April, Science Fair in May.",
+    "researchWorks": "Cancer therapies, solar power innovations.",
+    "sportsCategories": "Tennis, swimming, track and field."
+  },
+  {
+    "id": "4",
+    "name": "Yale University",
+    "image": "https://i.ibb.co/RqztqRW/download.jpg",
+    "admissionDates": "2025-01-20 to 2025-03-25",
+    "events": "Cultural Fest, Literary Meet",
+    "researchHistory": "Political Science, Literature",
+    "sports": "Rowing, Soccer",
+    "admissionProcess": "SAT/ACT scores, essays, counselor reports.",
+    "eventDetails": "Cultural Fest in February, Literary Meet in March.",
+    "researchWorks": "Political systems analysis, literary criticism research.",
+    "sportsCategories": "Rowing, soccer, basketball."
+  },
+  {
+    "id": "5",
+    "name": "Princeton University",
+    "image": "https://i.ibb.co/chXpL1k5/download-2.jpg",
+    "admissionDates": "2025-02-05 to 2025-04-10",
+    "events": "Math Olympiad, Science Symposium",
+    "researchHistory": "Mathematics, Physics",
+    "sports": "Basketball, Track",
+    "admissionProcess": "Application review, alumni interview.",
+    "eventDetails": "Math Olympiad in February, Science Symposium in March.",
+    "researchWorks": "String theory, advanced mathematical proofs.",
+    "sportsCategories": "Basketball, track, lacrosse."
+  },
+  {
+    "id": "6",
+    "name": "University of Cambridge",
+    "image": "https://i.ibb.co/0jvQzh0Y/download-1.jpg",
+    "admissionDates": "2025-03-10 to 2025-05-20",
+    "events": "Science Festival, Alumni Dinner",
+    "researchHistory": "Biotechnology, Computer Science",
+    "sports": "Cricket, Rowing",
+    "admissionProcess": "UCAS application, written assessments, interviews.",
+    "eventDetails": "Science Festival in March, Alumni Dinner in May.",
+    "researchWorks": "Biotech drug development, AI algorithms.",
+    "sportsCategories": "Cricket, rowing, rugby."
+  }
+]
