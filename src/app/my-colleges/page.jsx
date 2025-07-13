@@ -32,7 +32,8 @@ export default function MyCollegePage() {
     }
   }, [status]);
 
-  const handleReviewSubmit = (e, collegeId) => {
+  // ✅ fixed: accept whole `college` object
+  const handleReviewSubmit = (e, college) => {
     e.preventDefault();
 
     const form = e.target;
@@ -40,9 +41,12 @@ export default function MyCollegePage() {
     const ratingValue = Number(form.rating.value);
 
     const newReview = {
-      id: Date.now() + Math.random(), 
+      id: Date.now() + Math.random(),
       review: reviewText,
       rating: ratingValue,
+      collegeName: college.collegeName,
+      collegeId: college.collegeId,
+      userName: session?.user?.name || "",
     };
 
     const updatedReviews = [...reviews, newReview];
@@ -98,7 +102,7 @@ export default function MyCollegePage() {
 
             <h3 className="text-xl font-semibold mb-2">Add a Review</h3>
             <form
-              onSubmit={(e) => handleReviewSubmit(e, college.collegeId)}
+              onSubmit={(e) => handleReviewSubmit(e, college)} // ✅ send full college object
               className="grid gap-4"
             >
               <textarea
@@ -143,6 +147,7 @@ export default function MyCollegePage() {
                         <p className="text-yellow-600 font-semibold">
                           Rating: {r.rating} ★
                         </p>
+                        <p className="text-sm text-gray-500">By: {r.userName}</p>
                       </li>
                     ))}
                 </ul>
