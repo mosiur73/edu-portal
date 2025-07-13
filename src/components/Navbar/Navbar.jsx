@@ -72,15 +72,15 @@ const Navbar = () => {
               </Link>
             ) : (
               <div className="flex items-center space-x-4">
-                {/* <span className="text-gray-600 text-sm">
+                <span className="text-gray-600 text-sm">
                   Hello, {session.user?.name}
-                </span> */}
-                <button
+                </span>
+                {/* <button
                   onClick={() => signOut()}
                   className="text-gray-600 hover:text-gray-900 px-4 py-2 text-sm font-medium border border-gray-300 rounded-md hover:bg-gray-50 transition-colors duration-200"
                 >
                   Sign Out
-                </button>
+                </button> */}
                 <UserNav />
               </div>
             )}

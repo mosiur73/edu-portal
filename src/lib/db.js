@@ -3,7 +3,7 @@ import { MongoClient, ObjectId } from "mongodb"
 let client
 let db
 
-async function connectToDatabase() {
+ export async function connectToDatabase() {
   if (!client) {
     client = new MongoClient(process.env.MONGODB_URI)
     await client.connect()
