@@ -107,10 +107,7 @@ export default function LoginForm() {
             Continue with Google
           </Button>
 
-          {/* <Button variant="outline" className="w-full bg-transparent" onClick={() => handleSocialSignIn("facebook")}>
-            Continue with Facebook
-          </Button> */}
-
+         
           <Button variant="outline" className="w-full bg-transparent" onClick={() => handleSocialSignIn("twitter")}>
             Continue with Twitter
           </Button> 

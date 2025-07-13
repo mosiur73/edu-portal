@@ -40,8 +40,7 @@ export default function MyCollegePage() {
     const ratingValue = Number(form.rating.value);
 
     const newReview = {
-      id: Date.now() + Math.random(), // generate unique id
-      collegeId,
+      id: Date.now() + Math.random(), 
       review: reviewText,
       rating: ratingValue,
     };
